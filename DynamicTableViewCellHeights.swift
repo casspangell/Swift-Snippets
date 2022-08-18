@@ -56,7 +56,7 @@ class TableViewController: UIViewController, UITableViewDelegate, UITableViewDat
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "BallotTableViewCell", for: indexPath) as! BallotTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "CustomTableViewCell", for: indexPath) as! CustomTableViewCell
             
         cell.statusLabel.text = "Status"
         cell.dateLabel.text = "1/1/1990"
