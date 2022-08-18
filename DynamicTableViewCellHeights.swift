@@ -34,6 +34,9 @@ class CustomTableViewCell: UITableViewCell {
 //  Created by Cass Pangell on 8/8/22.
 //
 
+//---IMPORTANT---
+// In order for this to work, in storyboard, be sure to attach the UILabels/UITextFields to the content view's bottom and sides
+
 import Foundation
 import UIKit
 
