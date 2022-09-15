@@ -1,3 +1,8 @@
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.hideKeyboardWhenTappedAround()
+    }
+
     /**
      * Called when 'return' key pressed. return NO to ignore.
      */
